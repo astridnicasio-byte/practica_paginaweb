@@ -1,0 +1,195 @@
+/*paleta de colores Blue Gradient*/
+main{
+    display: flex;
+}
+
+body{
+    background-color: #2f6690;
+    font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 15px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+h1,h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav li a:hover{
+    background-color: #bbdefb;
+    color: #2f6690;
+    border-radius: 5px;
+}
+
+
+#Titulo{
+    text-align: center;
+}
+#contenedor_principal{
+    background-color: #1976d2;
+    width: 80%;
+    border-radius: 20px;
+}
+
+#aside_m{
+    background-color: #90caf9;
+    width: 20%;
+    border-radius: 20px;
+}
+
+/*Seccion 1*/
+
+#seccion1{
+    background-color: #64b5f6;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#img_bg1{
+    background-image: url('../IMG/Tiburon-ballena.jpg');
+    background-size: cover;     
+    background-position: center;  
+}
+
+#color_dg1{
+    background-image: linear-gradient(to top, #3d348b, #7678ed);
+}
+
+#img_bg2{
+    background-image: url('../IMG/TiburonBallena.jpg');
+    background-size: cover;     
+    background-position: center;  
+}
+
+#color_dg2{
+    background-image: linear-gradient(to top, #81c3d7, #2f6690);
+}
+
+.contenedor_2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 15px;
+    
+}
+
+.articulo{
+    background-color: #0d47a1;
+    width: calc(25% - 12px);
+    height: 150px;
+    padding: 35px;
+    margin: 35px;
+    border-radius: 12px;
+   
+}
+
+/*Seccion 2*/
+
+#seccion2{
+    background-image: url('../IMG/mar.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+#img_bg3{
+    background-image: url('../IMG/TiburonBallena3.jpg');
+    background-size: cover;    
+    background-position: center;  
+}
+
+.articulo2{
+    background-color: #bbdefb;
+    width: calc(25% - 12px);
+    height: 270px;
+    padding: 35px;
+    margin: 35px;
+   border-radius: 12px;
+}
+
+.articulo2 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+
+
+/*Todo los elementos del footer*/
+
+footer{  
+    background-color: #0d47a1;
+    width: 98.6%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row-inverse;
+    position: relative;
+    border-radius: 12px;
+}
+
+#seccion_footer ul{
+    display: flex;
+    flex-direction: row-inverse;
+    gap: 100px;
+}
+
+#iconos{
+    background-color:#bbdefb;
+    width: 18%;
+    height: 53px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    border-radius: 12px;
+}
+#Instagram{
+   position: absolute;
+    left: 15px;
+    top: 10px;
+}
+#Mensaje{
+   position: absolute;
+   left: 41%;
+   top: 10px;
+}
+#Telefono{
+   position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+
+.material-symbols-outlined {
+  color: #3d348b;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.link_google{
+    position: absolute;
+   left: 75%; 
+   top: 10px;
+    background-color:#bbdefb;
+    border-radius: 5px;
+}
+
+
+#img_texto{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}}
