@@ -1,57 +1,50 @@
 <!doctype html>
-<html lang="es">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mi pagina web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700;900&display=swap"
-      rel="stylesheet"
-    />
+<body>
+    <header class="container-fluid p-5 bg-success text-white text-center">
+        <h1>Ejercicios de Arreglos</h1>
+    </header>
+    <div class="container p-5 my-5 border text-center text-success">
+        <h4>Captura las temperaturas de la semana para saber el promedio</h4>
+        <button class="btn btn-secondary" onclick="captura() ">Captura temperaturas</button>
+        <button class="btn btn-success" onclick="promedio()">Mostrar promedio </button>
 
-    <style>
-      
-    </style>
-  </head>
+        <p id="minima"></p>
+        <p id="maxima"></p>
+        <p id="promedio"></p>
+    </div>
+    <div class="container p-5 my-5 border text-center text-success">
+        <h3>Dibujar Número 8</h3>
+        <button class="btn btn-secondary" onclick="dibujarOcho()">
+            Dibujar
+        </button>
+        <div id="resultadoOcho" class="text-center"></div>
+    </div>
+    <div class="container p-5 my-5 border text-center text-success">
+        <h3>Gestión de Alumnos</h3>
+        <button class="btn btn-secondary" onclick="gestionarAlumnos()">
+            Iniciar 
+        </button>
+        <div id="resultadoAlumnos" class="text-center"></div>
+    </div>
 
-  <body>
-    <main>
-      <h1>Desarrollo Web</h1>
-      <p>
-        Bienvenido. Índice central para acceder de forma rápida a todas las
-        prácticas y entregas de la materia.
-      </p>
+    <div class="container p-5 my-5 border text-center text-success">
+        <h3>Agenda de la semana </h3>
+        <button class="btn btn-secondary" onclick="agenda_definicion()">
+            Iniciar
+        </button>
+        <div id="impAgenda" class="text-center"></div>
+    </div>
 
-      <h2>Unidad 2 — Prácticas</h2>
-      <ul>
-        <li>
-          <a href="Unidad-2/puntuacion-1/index.html">
-            <span>01. Puntuación 1</span>
-          </a>
-        </li>
-    
-        <li>
-          <a href="Unidad-2/Curriculum/index.html">
-            <span>02. Curriculum </span>
-          </a>
-        </li>
-      </ul> 
-      <h2>Unidad 3 - Practicas </h2>
-       <ul>
-        <li>
-          <a href="unidad_3/manejo_de_arreglos/index.html>
-            <span>Arreglos</span>
-          </a>
-        </li>
-       </ul>
-    </main>
+    <script src="js/arreglos.js"></script>
+</body>
 
-   
-    
-
-    <footer>Astrid Nicasio — 2026</footer>
-  </body>
 </html>
